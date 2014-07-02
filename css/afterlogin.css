@@ -1,0 +1,172 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html
+{
+	width: 1200px;
+	font-size: 62.5%;
+	font-family: sans-serif;
+  	-webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body{
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+  	line-height: 1.42857143;
+  	color: #333;
+
+  	   
+}
+
+
+html, body{
+    height: auto !important;
+    min-height: 100%;
+}
+
+#wrap
+{
+	height: auto !important;
+	min-height: 100%;
+}
+
+.container
+{
+	width:950px;
+	margin-left: 250px;
+
+}
+
+.content-title{
+	margin-top: 25px;
+	margin-left: 5px;
+}
+
+.content-title h2{
+	border-bottom: 1px solid #EBEBEB;
+	font-family: Helvetica;
+	font-size: 32px;
+	margin: 0;
+	font-weight: normal;
+}
+
+.content{
+	width: 712.5px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 50px;
+	border: 0.5px solid #989898;
+}
+
+.form-title{
+	background: #F0F0F0;
+	border: 0.5px solid #989898;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+.form-require
+{
+	border: 0.5px solid #989898;
+	background: #F8F8F8;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.form-content
+{
+	border:0.5px transparent #989898;
+	background: #fff;
+}
+
+.form-content-p1{
+	
+}
+.form-content-p2{
+
+}
+
+input
+{
+	margin-left: 10px;
+}
+
+/*For TOP Nav Bar*/
+.navbar-top
+{
+	width: 100%;
+	height: 50px;
+	background: #272822;
+    position: fixed;
+  	right: 0;
+  	left: 0;
+  	z-index: 1030;
+  	box-shadow: none;
+  	padding-right: 30px;
+  	filter: none;
+  	border: none;
+
+}
+
+.brand
+{
+	height: 50px;
+	float: left;
+  	padding: 15px 15px;
+  	font-size: 18px;
+  	color:#fff;
+  	line-height: 20px;
+  	text-shadow: 0 1px 0 #fff;
+}
+
+.brand:hover
+{
+	text-decoration: none;
+	background-color: transparent;
+	cursor: default;
+}
+
+
+.navbar-top-img
+{
+	float: right;
+	padding:6.5px 1px;
+	margin-right: 1px;
+	margin-right:0;
+}
+
+.navbar-top-content
+{
+	height: 50px;
+	font-size: 15px;
+	line-height: 20px;
+	float: right;
+	display: block;
+	padding: 15px 10px;
+}
+
+
+
+.white
+{
+	color: #fff;
+	background: transparent;
+}
+
+.no-hyperlink
+{
+	text-decoration: none;
+}
+
+.no-hyperlink:visited
+{
+	text-decoration: none;
+}
+
+
